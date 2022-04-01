@@ -24,4 +24,4 @@ Now you need to run vim and wait until vim downloads all necessary files, you ca
 
 After vim finish, close it and run again. 
 
-Some useful tips how to use vim you can find in file tips_and_tricks.txt. 
+Some useful tips how to use vim you can find in file `vim_tips_tricks.txt`. 
