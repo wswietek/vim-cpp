@@ -1,0 +1,67 @@
+vim tips&tricks
+
+# C/C++
+gd - idz do definicji
+gr - idz do referencji
+
+# swap lines:
+ddp
+or
+dd, move cursor, p
+
+#otwarcie pliku:
+:o <sciezka/nazwa_plliku>
+
+#uruchamianie w zakladkach:
+:tabedit <sciezka/nazwa_pliku>
+
+#poruszanie po zakladkach:
+esc (tryb visual / ogolny)
+gt
+gT
+
+
+# zpaisanie sesji
+:mksession <nazwa_pliku.vim>
+
+#przywracanie sesji
+vim -S <nazwa_pliku.vim>
+
+# dzielenie okna:
+:split (w poziomie)
+:vsplit (w pionie)
+
+# poruszanie sie po podzielonym oknie:
+Ctrl + ww cycle though all windows
+Ctrl + wh takes you left a window
+Ctrl + wj takes you down a window
+Ctrl + wk takes you up a window
+Ctrl + wl takes you right a window
+
+#zmiana rozmiaru
+resize +2   ( dla podzialu poziomego )
+ vertical resize -2 (dla podzialu pionowego)
+
+#dopelnianie wyrazow:
+crtl+n (podpowiedzi dla nowych wyrazow)
+ctrl+p (podpowiedzi dla wyrazow juz uzywanych w tekscie)
+
+#otwieranie pliku z explorera:
+:Explore
+:Lex / :Lex! (wykrzyknik powoduje otwarcie explorera po drugiej stronie)
+:Hex
+:Sex
+
+# edycja wielu linii na raz (visual block)
+ustawiamy kursor potem : crtl+v
+przestawiamy kursor, a nastepnie: shift + i
+edytujemy pierwswza linie a potem: ESC
+
+# moje customowe z vimrc:
+zmiana tab:
+ll
+rr
+
+# otwarcie explorera (nerdtree):
+ee
+
