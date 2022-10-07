@@ -61,6 +61,8 @@ edytujemy pierwswza linie a potem: ESC
 zmiana tab:
 ll
 rr
+# zamykanie tab (buffora)
+:bd / :bw
 
 # otwarcie explorera (nerdtree):
 ee
